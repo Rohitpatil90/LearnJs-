@@ -109,17 +109,23 @@ ans -   */
 
   // ✅ Example 2: Inside a Class
          class myclass{
+            
             constructor(){
-                this.no = 9;
+                let no1=11;
+                this.no1 = 9;
+                this.t=10;
             }
 
             test(){
                console.log(this.no);
+               console.log(this);
             }
          }
 
-         let cls = new myclass();
-         cls.test();
+         let m=new myclass();
+         m.test();
+         console.log(m+"class");
+         
        
 
 
