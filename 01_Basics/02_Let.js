@@ -117,4 +117,9 @@ ans -   */
                console.log(this.no);
             }
          }
+
+         let cls = new myclass();
+         cls.test();
        
+
+
